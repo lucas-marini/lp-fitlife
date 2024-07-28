@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar{
+    background: #333333;
+    display: flex;
+    flex-flow: row wrap;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+    /* position: fixed; */
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.logo h1{
+    
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 34px;
+}
+
+.menu{
+    flex: 50%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 16px;
+}
+
+.menu a:hover{
+    color: #2196f3;
+    border-top: 2px solid #dfeff5;
+}
+
+#btn-contato{
+    background: #ff6200;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 20%;
+}
+
+#btn-contato:hover{
+    background: #2196f3;
+    color: white;
+}
