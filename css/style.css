@@ -108,3 +108,43 @@ body{
     text-align: end;
     margin-bottom: 50px;
 }
+
+section{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.servicos{
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 5% auto;
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card p, .card h3{
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+}
+
+.img-servicos{
+    flex: 0 0 auto;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
