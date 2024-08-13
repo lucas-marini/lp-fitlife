@@ -227,3 +227,21 @@ section{
     border: none;
     cursor: pointer;
 }
+
+footer{
+    margin-top: 100px;
+    height: 200px;
+    background: #333333;
+    text-align: left;
+    border-top: 5px solid #2196f3;
+    color: white;
+}
+
+.footer{
+    margin: 50px;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: white;
+}
