@@ -1,0 +1,52 @@
+@media screen and (max-width:1000px){
+    .navbar{
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+
+    .header{
+        padding-top: 20px;
+    }
+
+    .headline, .img-headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .btn-contratar{
+        margin-top: 60px;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card-preco{
+        width: 100%;
+    }
+
+    .section-contato{
+        margin-left: 20px;
+    }
+
+    .btn-mensagem{
+        background: #ff6200;
+        border-radius: 10px;
+        padding: 10px;
+        width: 200px;
+        height: 40px;
+        color: white;
+        text-decoration: none;
+        border: none;
+        margin-top: 5%;
+    }
+}
