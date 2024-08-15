@@ -31,7 +31,15 @@
     }
 
     .card-preco{
-        width: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 20px;
+    }
+
+    .btn-preco{
+        align-self: flex-end; 
     }
 
     .section-contato{
